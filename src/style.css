@@ -19,7 +19,6 @@ body {
   font-family: "Orbitron", sans-serif;
   color: var(--color-primary);
   background-color: #222;
-  /* background-color: #60b347; */
 }
 
 /* LAYOUT */
@@ -39,7 +38,7 @@ main {
 }
 
 .left {
-  height: 50%;
+  padding-top: 5rem;
   width: 50vw;
   display: flex;
   flex-direction: column;
@@ -48,7 +47,6 @@ main {
 }
 
 .right {
-  height: 50%;
   width: 50vw;
   display: flex;
   flex-direction: column;
